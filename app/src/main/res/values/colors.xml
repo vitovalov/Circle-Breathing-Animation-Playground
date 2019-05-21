@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#3F51B5</color>
+  <color name="colorPrimaryDark">#303F9F</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="breathing_exercise_first_bg">#c13636</color>
+  <color name="breathing_exercise_second_bg">#289134</color>
+  <color name="breathing_exercise_third_bg">#1a1c8b</color>
+  <color name="breathing_exercise_green">#88d932</color>
+</resources>

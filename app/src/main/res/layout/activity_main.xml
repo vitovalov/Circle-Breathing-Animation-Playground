@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="io.github.vitovalov.circlebreathinganimationplayground.MainActivity"
+  >
+
+
+  <TextView
+    android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:layout_gravity="center"
+    android:background="#ccc"
+    android:text="128"
+    />
+
+  <io.github.vitovalov.circlebreathinganimationplayground.BreathingCircleView
+    android:id="@+id/vieww"
+    android:layout_width="256dp"
+    android:layout_height="256dp"
+    android:layout_gravity="center"
+    android:alpha=".8"
+    android:onClick="clicked"
+    tools:background="#ccc"
+    />
+</FrameLayout>
